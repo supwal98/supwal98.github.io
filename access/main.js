@@ -127,53 +127,35 @@ swiper.on('slideChange', function () {
 	
 
 	if (swiper.realIndex == 0) {
+		$('html').css('background', '#C5D4C9');
+		$('.content').css('background', '#ECF2EE');
 
-		// $('html').css('background', '#B3C4E3');
-		// $('.content').css('background', '#D9E3F0');
-
-		// $('.dit_dot').removeClass('act');
-		// var sss = swiper.realIndex;
-		// $('.dit_dot:nth-child(' + sss + ')').addClass('act');
 	}
 
 	if (swiper.realIndex == 1) {
+		$('html').css('background', '#B3C4E3');
+		$('.content').css('background', '#D9E3F0');
 
-		// $('html').css('background', '#DAC8D7');
-		// $('.content').css('background', '#EDE3EB');
-
-		// $('.dit_dot').removeClass('act');
-		// var sss = swiper.realIndex;
-		// $('.dit_dot:nth-child(' + sss + ')').addClass('act');
 	}
 
 	if (swiper.realIndex == 2) {
 
-		$('html').css('background', '#C9D8E7');
-		$('.content').css('background', '#E4ECF3');
 
-		$('.dit_dot').removeClass('act');
-		$('.dit_dot:nth-child(' + swiper.realIndex + 1 + ')').addClass('act');
+		$('html').css('background', '#DAC8D7');
+		$('.content').css('background', '#EDE3EB');
+
+
 	}
+	// if (swiper.realIndex == 3) {
+	// 	$('html').css('background', '#C9D8E7');
+	// 	$('.content').css('background', '#E4ECF3');
+	// 
+	// }
 	if (swiper.realIndex == 3) {
-
-		$('html').css('background', '#C5D4C9');
-		$('.content').css('background', '#ECF2EE');
-
-		$('.dit_dot').removeClass('act');
-		var sss = swiper.realIndex + 1;
-		$('.dit_dot:nth-child(' + sss + ')').addClass('act');
-	}
-	if (swiper.realIndex == 4) {
-
-				
 		$('html').css('background', '#8bbeef');
 		$('.content').css('background', '#fff495');
 
-		$('.dit_dot').removeClass('act');
-		var sss = swiper.realIndex + 1;
-		$('.dit_dot:nth-child(' + sss + ')').addClass('act');
 	}
-	previous = swiper.realIndex
 });
 
 var p = 0;
@@ -211,6 +193,7 @@ function buttonclick(buttonnum) {
         		setTimeout(function () {
         			$('.loginpage').fadeOut(100);
         		}, 400);
+				$('html').css('background', '197, 212, 201');
     	    }
     	} else {
     		$('.dot:nth-child(' + p + ')').addClass('pressed');

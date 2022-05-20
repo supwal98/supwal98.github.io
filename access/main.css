@@ -261,6 +261,15 @@ i.far {
 	top: 610px;
 }
 
+.swiper-pagination > .swiper-pagination-bullet {
+	background-color:#5a5e63;
+}
+
+.swiper-pagination > .swiper-pagination-bullet-active {
+	color:#fff;
+	background-color: #080808;
+}
+
 .glav {
 	font-size: 24px;
 	margin: 16px;
@@ -319,12 +328,12 @@ i.far {
 
 .number {
 	margin-top: 16px;
-	font-size: 12px;
+	font-size: 13px;
 
 }
 
 .date {
-	font-size: 12px;
+	font-size: 13px;
 }
 
 .info {
@@ -347,8 +356,9 @@ i.far {
 
 .razdel2 {
 	height: 2px;
-	margin: 16px;
+	width: 340px;
 	background: rgb(197, 212, 201);
+	margin-top: 50px;
 }
 
 .image {
@@ -401,7 +411,7 @@ i.far {
 .content {
 	width: 340px;
 	box-shadow: rgba(0, 0, 0, 0.03) 0px 14px 28px, rgba(0, 0, 0, 0.05) 0px 12px 10px;
-	background: rgb(215, 227, 242);
+	background: rgb(236, 242, 238);
 	border-radius: 8.5px;
 	transition: .3s!important;
 	-webkit-backface-visibility: hidden;
@@ -782,14 +792,16 @@ i.far {
 .rod_deskr {
 	font-size: 13px;
 	margin: 16px;
-	margin-top: 23px;
+	margin-top: 26px;
+	text-align: center;
 }
 
 .fond_zah {
-	font-size: 11px;
-	margin: 16px;
+	font-size: 12px;
+	margin: 11px;
     text-align: center;
 	margin-top: 23px;
+	line-height: 1.5;
 }
 
 .line>div {
