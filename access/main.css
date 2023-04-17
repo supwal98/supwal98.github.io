@@ -252,7 +252,20 @@ i.far {
 	vertical-align: middle;
 	position: relative;
 	font-size: 10px;
-    top: 71px;
+    top: 45px;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
+    bottom: var(--swiper-pagination-bottom,8px);
+    top: var(--swiper-pagination-top,auto);
+    left: 0;
+    width: 100%;
+	bottom: -45px;
+}
+
+.swiper-position {
+	position: relative;
+	bottom: -72px;
 }
 
 
