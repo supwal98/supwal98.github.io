@@ -252,7 +252,7 @@ i.far {
 	vertical-align: middle;
 	position: relative;
 	font-size: 10px;
-    top: 45px;
+    top: 77px;
 }
 
 .swiper-horizontal>.swiper-pagination-bullets,.swiper-pagination-bullets.swiper-pagination-horizontal,.swiper-pagination-custom,.swiper-pagination-fraction {
@@ -265,7 +265,7 @@ i.far {
 
 .swiper-position {
 	position: relative;
-	bottom: -72px;
+	bottom: -110px;
 }
 
 
@@ -462,7 +462,7 @@ i.far {
 	align-items: center;
 	font-size: 11px;
 	position: relative;
-    top: 40px;
+    top: 36px;
 }
 
 .ico {
