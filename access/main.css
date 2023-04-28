@@ -367,6 +367,15 @@ i.far {
 	background: rgb(176, 198, 231);
 }
 
+.razdel_international {
+	height: 2px;
+	margin: 16px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	background: rgb(176, 198, 231);
+}
+
+
 .razdel2 {
 	height: 2px;
 	width: 340px;
