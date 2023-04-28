@@ -654,7 +654,7 @@ i.far {
 	display: inline-block;
 }
 
-.key:active,
+.key:active
 {
 	color: #fff;
 	background-color: black;
@@ -669,7 +669,7 @@ i.far {
 	display: inline-block;
 }
 
-.fastauth:active,
+.fastauth:active
 {
 	color: #fff;
 	background-color: black;
